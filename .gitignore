@@ -1,0 +1,37 @@
+# =================================================================
+# Git Ignore Configuration for UniGlide Food Delivery Bot
+# =================================================================
+
+# Secret & environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# SQLite databases & storage directories
+*.db
+*.sqlite
+*.sqlite3
+data/
+*.db-journal
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & receipt uploads
+*.log
+logs/
+receipts/
+screenshots/
